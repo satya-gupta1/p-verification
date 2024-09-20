@@ -8,6 +8,10 @@ import logging as log
 
 #from constants import *
 
+if(True)
+    print("HELLO")
+
+
 # Define Coverage for ADD16 and RADD16
 bitmanip_Coverage = coverage_section (
          CoverPoint("bitmanip_model.EN_mav_putvalue", xf = lambda mav_putvalue_instr, mav_putvalue_src1, mav_putvalue_src2, mav_putvalue_src3, EN_mav_putvalue : EN_mav_putvalue, bins=[0, 1]),
